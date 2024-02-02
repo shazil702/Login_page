@@ -1,0 +1,118 @@
+{% load static %}
+{{request.user}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static '/home.css' %}">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            background-color: rgb(207, 223, 229);
+        }
+
+        .btn {
+            text-align: center;
+            font-size: 24px;
+            width: 100%;
+            background-color: rgb(48, 18, 18);
+            padding: 15px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            margin-top: 5px;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            color: white;
+
+
+        }
+        nav{
+    float: right;
+}
+    </style>
+</head>
+
+<body>
+    <nav>
+        <form action="{% url 'out' %}">
+            <button class="btn">log out</button>
+        </form>
+    </nav>
+    <div class="container-fluid " id="card">       
+         <div class="row">
+            <div class="col col-sm-12 col-lg-12">
+                  <div class="content">
+            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/3/5/l/-original-imaghx9qmgqsk9s4.jpeg?q=70"
+                alt="iphone 14">
+            <h4>APPLE iphone 14 (Blue, 128 GB) </h4>
+            <h6>Price: ₹60,999</h6>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="content">
+            <img
+                src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/k/l/l/-original-imagtc5fz9spysyk.jpeg?q=70">
+            <h4>APPLE iphone 15 (Blue, 128 GB) </h4>
+            <h6>Price: ₹79,900</h6>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/p/q/i/-original-imagtc3kfyhgfcvr.jpeg?q=70"
+                alt="iphone 15 promax">
+            <h4>APPLE iphone 15 Pro max (Natural Titanium, 256 GB) </h4>
+            <h6>Price: ₹1,59,900</h6>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="https://rukminim2.flixcart.com/image/416/416/ktketu80/mobile/6/v/c/iphone-13-pro-max-mllh3hn-a-apple-original-imag6vpgpycue85h.jpeg?q=70"
+                alt="">
+            <h4>APPLE iphone 13 Pro Max (Gold, 1 TB) </h4>
+            <h6>Price: ₹1,79,900</h6>
+            <button class="btn">Buy Now</button>
+        </div>
+        
+        <div class="content">
+            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/a/r/5/-original-imagtc3kcmph6ax5.jpeg?q=70"
+                alt="">
+            <h4>APPLE iPhone 15 Pro Max (Black Titanium, 1TB) </h4>
+            <h6>Price: ₹1,99,900</h6>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/9/f/p/-original-imaghxenhnpyhn5u.jpeg?q=70"
+                alt="">
+            <h4>APPLE iphone 14 Pro Max (Space Black,1 TB) </h4>
+            <h6>Price: ₹1,77,999</h6>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="https://rukminim2.flixcart.com/image/416/416/ktketu80/mobile/r/8/l/iphone-13-mini-mlk53hn-a-apple-original-imag6vp693zncyk7.jpeg?q=70" alt="">
+            <h4>APPLE iphone 13 mini (Midnight, 512 GB)</h4>
+            <h6>Price: ₹91,999</h6>
+            <button class="btn">Buy Now</button>
+
+        </div>
+        <div class="content">
+            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/l/v/8/-original-imaghx9qudmydgc4.jpeg?q=70" alt="">
+            <h4>APPLE iPhone 14 Plus (Starlight, 128 GB)</h4>
+            <h6>Price: ₹68,999</h6>
+            <button class="btn">Buy Now</button>
+        </div>
+            </div>
+           
+        </div>
+       
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+        
+</body>
+
+</html>
